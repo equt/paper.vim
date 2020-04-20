@@ -87,6 +87,7 @@ call s:Hi('Character', s:p.green2[s:s], s:n, s:n)
 call s:Hi('Macro', s:p.gray2[s:s], s:n, s:n)
 call s:Hi('PreProc', s:p.gray2[s:s], s:n, s:n)
 call s:Hi('Todo', s:p.green1[s:s], s:n, 'italic')
+call s:Hi('Title', s:p.yellow1[s:s], s:n, s:n)
 
 " Support Rust.vim
 call s:Hi('rustCommentLineDoc', s:p.gray2[s:s], s:n, s:n)
