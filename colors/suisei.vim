@@ -126,3 +126,6 @@ call s:Hi('GitGutterChangeDelete', s:p.brown1[s:s], s:n, s:n)
 
 " Support Coc.nvim
 call s:Hi('CocErrorSign', s:p.red1[s:s], s:n, s:n)
+
+" Support Vim-Signature
+call s:Hi('SignatureMarkText', s:p.purple2[s:s], s:n, s:n)
