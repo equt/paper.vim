@@ -58,6 +58,9 @@ StatusLine    background  background
 StatusLine    foreground  background
 #endif
 
+# DONOT use the same color as StatusLine, see :h hl-StatusLineNC
+StatusLineNC  omit  omit
+
 TabLine       foreground  background
 TabLineFill   omit        hint1
 TabLineSel    foreground  hint2
