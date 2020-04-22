@@ -45,24 +45,24 @@ lCursor              -> Cursor
 # Dark {{{
 Background: dark
 
-Color: background #1D242d ~ Black
-Color: foreground #908f95 ~ LightGrey
-Color: hint1 #343b44 ~ DarkGrey
-Color: hint2 #353f4d ~ Grey
-Color: grey1 #344457 ~ Grey
-Color: grey2 #546478 ~ Grey
-Color: green1 #6aa389 ~ DarkGreen
-Color: green2 #6cad89 ~ LightGreen
-Color: blue1 #435c8a ~ DarkBlue
-Color: blue2 #4d75bd ~ LightBlue
-Color: yellow1 #ad8a5e ~ DarkYellow
-Color: yellow2 #d4a56c ~ LightYellow
-Color: purple1 #68678a ~ DarkCyan
-Color: purple2 #7d7bad ~ LightCyan
-Color: brown1 #916e6e ~ DarkMagenta
-Color: brown2 #bf7c7c ~ LightMagenta
-Color: red1 #995665 ~ DarkRed
-Color: red2 #c76d81 ~ LightRed
+Color:  background  #1D242D  ~  Black
+Color:  foreground  #908F95  ~  LightGrey
+Color:  hint1       #343B44  ~  DarkGrey
+Color:  hint2       #353F4D  ~  Grey
+Color:  grey1       #344457  ~  Grey
+Color:  grey2       #546478  ~  Grey
+Color:  green1      #6AA389  ~  DarkGreen
+Color:  green2      #6CAD89  ~  LightGreen
+Color:  blue1       #435C8A  ~  DarkBlue
+Color:  blue2       #4D75BD  ~  LightBlue
+Color:  yellow1     #AD8A5E  ~  DarkYellow
+Color:  yellow2     #D4A56C  ~  LightYellow
+Color:  purple1     #68678A  ~  DarkCyan
+Color:  purple2     #7D7BAD  ~  LightCyan
+Color:  brown1      #916E6E  ~  DarkMagenta
+Color:  brown2      #BF7C7C  ~  LightMagenta
+Color:  red1        #995665  ~  DarkRed
+Color:  red2        #C76D81  ~  LightRed
 
 Include: _term
 Include: _syntax
