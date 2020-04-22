@@ -1,0 +1,13 @@
+haskellDecl         yellow2  omit
+haskellType         purple2  omit
+haskellPragma       yellow2  omit
+
+rustCommentLineDoc  grey1    omit
+rustAttribute       yellow1  omit
+rustDerive          yellow1  omit
+rustLifetime        brown2   omit
+rustSelf            brown2   omit
+rustUnsafeKeyword   red1     omit
+
+mkdHeading          yellow1  omit
+mkdCode             purple2  omit

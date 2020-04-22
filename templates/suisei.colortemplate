@@ -1,0 +1,102 @@
+# vim: ft=colortemplate fdm=marker et ts=2 sw=2
+
+Full name  : 「水星」
+Short name : suisei
+Author     : Orchx <suisei@47.rs>
+Maintainer : Orchx <suisei@47.rs>
+URL        : https://github.com/theme-suisei/Suisei.vim
+Website    : https://suisei.journal.md
+Version    : 0.0.1
+Neovim     : yes
+License    : MIT
+
+Include: _help.colortemplate
+
+# Global definitions {{{
+QuickFixLine         ->  Search
+StatusLineTerm       -> StatusLine
+StatusLineTermNC     -> StatusLineNC
+Boolean              -> Constant
+Character            -> Constant
+Conditional          -> Statement
+Define               -> PreProc
+Debug                -> Special
+Delimiter            -> Special
+Exception            -> Statement
+Float                -> Constant
+Function             -> Identifier
+Include              -> PreProc
+Keyword              -> Statement
+Label                -> Statement
+Macro                -> PreProc
+Number               -> Constant
+Operator             -> Statement
+PreCondit            -> PreProc
+Repeat               -> Statement
+SpecialChar          -> Special
+SpecialComment       -> Special
+StorageClass         -> Type
+Structure            -> Type
+Tag                  -> Special
+Typedef              -> Type
+lCursor              -> Cursor
+# }}}
+
+# Dark {{{
+Background: dark
+
+Color: background #1D242d ~ Black
+Color: foreground #908f95 ~ LightGrey
+Color: hint1 #242b34 ~ DarkGrey
+Color: hint2 #353f4d ~ Grey
+Color: grey1 #344457 ~ Grey
+Color: grey2 #546478 ~ Grey
+Color: green1 #6aa389 ~ DarkGreen
+Color: green2 #6cad89 ~ LightGreen
+Color: blue1 #435c8a ~ DarkBlue
+Color: blue2 #4d75bd ~ LightBlue
+Color: yellow1 #ad8a5e ~ DarkYellow
+Color: yellow2 #d4a56c ~ LightYellow
+Color: purple1 #68678a ~ DarkCyan
+Color: purple2 #7d7bad ~ LightCyan
+Color: brown1 #916e6e ~ DarkMagenta
+Color: brown2 #bf7c7c ~ LightMagenta
+Color: red1 #995665 ~ DarkRed
+Color: red2 #c76d81 ~ LightRed
+
+Include: _term
+Include: _syntax
+Include: _language
+Include: _plug
+# }}}
+
+# Light {{{
+Background: light
+
+Color:  background  #F0F0F4  ~        DarkGrey
+Color:  foreground  #102C4E  ~        White
+Color:  hint1       #E4E4E8  ~        LightGrey
+Color:  hint2       #D2D2D9  ~        LightGrey
+Color:  grey1       #676880  ~        LightGrey
+Color:  grey2       #A0A0AD  ~        Grey
+Color:  green1      #718A7D  ~        DarkGreen
+Color:  green2      #5E8D89  ~        LightGreen
+Color:  blue1       #3C5685  ~        DarkBlue
+Color:  blue2       #4969A3  ~        LightBlue
+Color:  yellow1     #BA8F4C  ~        DarkYellow
+Color:  yellow2     #D9A250  ~        LightYellow
+Color:  purple1     #565163  ~        DarkCyan
+Color:  purple2     #7C758F  ~        LightCyan
+Color:  brown1      #634F4F  ~        DarkMagenta
+Color:  brown2      #A17F7F  ~        LightMagenta
+Color:  red1        #995757  ~        DarkRed
+Color:  red2        #C47474  ~        LightRed
+
+Include: _term
+Include: _syntax
+Include: _language
+Include: _plug
+# }}}
+
+Background: any
+Include: _bw.colortemplate

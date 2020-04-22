@@ -1,0 +1,14 @@
+GitGutterAdd           green1   omit
+GitGutterChange        yellow1  omit
+GitGutterDelete        red1     omit
+GitGutterChangeDelete  brown1   omit
+
+NERDTreeCWD            grey1    omit
+NERDTreeExecFile       blue1    omit
+NERDTreeOpenable       grey1    omit
+NERDTreeClosable       grey2    omit
+NERDTreeFile           grey2    omit
+NERDTreeDir            grey2    omit
+NERDTreeDirSlash       grey2    omit
+
+SignatureMarkText      purple2  omit

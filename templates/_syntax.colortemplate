@@ -1,0 +1,89 @@
+Variant: gui
+#if get(g:, '@optionprefix_transp_bg', 0) && !has('gui_running')
+Variant: 256 8
+#if get(g:, '@optionprefix_transp_bg', 0) && !has('gui_running')
+Variant: gui 256 8
+    Normal           foreground             none
+    Terminal         foreground             none
+#else
+    Normal           foreground             background
+    Terminal         foreground             background
+#endif
+
+# Group       Foreground  Background  Attributes
+ColorColumn   omit        hint1
+Conceal       omit        omit
+Cursor        omit        foreground
+CursorColumn  foreground  hint1
+CursorLine    omit        hint2
+CursorLineNr  yellow1     none
+DiffAdd       green1      omit
+DiffChange    yellow1     omit
+DiffDelete    red1        omit
+DiffText      foreground  omit
+Directory     grey2       omit
+
+#if get(g:, '@optionprefix_hide_end_of_buffer', 0)
+EndOfBuffer   background  background
+#else
+EndOfBuffer   hint1  background
+#endif
+
+ErrorMsg      red2        none
+FoldColumn    hint2       background
+Folded        grey2       background
+IncSearch     omit        omit        t=reverse  g=standout
+LineNr        hint2       none
+MatchParen    omit        none        underline
+ModeMsg       foreground  omit
+MoreMsg       foreground  omit
+NonText       hint1       omit
+Pmenu         foreground  hint1
+PmenuSbar     omit        hint1
+PmenuSel      foreground  hint2
+PmenuThumb    omit        grey1
+Question      foreground  omit
+Search        foreground  hint2
+SignColumn    omit        none
+SpecialKey    hint1       background
+Whitespace    hint1       background
+SpellBad      red2        omit        underline
+SpellCap      brown2      omit        underline
+SpellLocal    purple2     omit        underline
+SpellRare     grey2       omit        underline
+
+#if get(g:, '@optionprefix_hide_statusline', 0)
+StatusLine    foreground  background
+StatusLineNC  foreground  background
+#else
+StatusLine    background  background
+StatusLineNC  background  background
+#endif
+
+TabLine       foreground  background
+TabLineFill   omit        hint1
+TabLineSel    foreground  hint2
+Title         foreground  omit
+
+#if get(g:, '@optionprefix_hide_vert_split', 0)
+VertSplit     none        hint1
+#else
+VertSplit     background  none
+#endif
+
+Visual        omit        hint1
+VisualNOS     omit        red1
+WarningMsg    yellow2     none
+WildMenu      foreground  hint1
+Comment       grey2       omit        italic
+Constant      purple2     omit
+String        green1      omit
+Error         red2        none
+Identifier    brown2      omit
+Ignore        grey1       omit
+PreProc       grey2       omit
+Special       purple2     omit
+Statement     blue2       omit
+Todo          green1      none
+Type          blue2       omit        italic
+Underlined    blue1       omit        underline
