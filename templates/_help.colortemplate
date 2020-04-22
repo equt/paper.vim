@@ -17,6 +17,7 @@ terminal.
 >
 	let g:@optionprefix_transp_bg = 0
 <
+
 					*g:@optionprefix_hide_end_of_buffer*
 Set to 1 if you want to hide the end of buffer.
 >
