@@ -53,11 +53,9 @@ SpellLocal    purple2     omit        underline
 SpellRare     grey2       omit        underline
 
 #if get(g:, '@optionprefix_hide_statusline', 0)
-StatusLine    foreground  background
-StatusLineNC  foreground  background
-#else
 StatusLine    background  background
-StatusLineNC  background  background
+#else
+StatusLine    foreground  background
 #endif
 
 TabLine       foreground  background
@@ -66,9 +64,9 @@ TabLineSel    foreground  hint2
 Title         foreground  omit
 
 #if get(g:, '@optionprefix_hide_vert_split', 0)
-VertSplit     none        hint1
-#else
 VertSplit     background  none
+#else
+VertSplit     hint1        hint1
 #endif
 
 Visual        omit        hint1
