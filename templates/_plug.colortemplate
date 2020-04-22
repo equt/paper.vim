@@ -12,3 +12,6 @@ NERDTreeDir            grey2    omit
 NERDTreeDirSlash       grey2    omit
 
 SignatureMarkText      purple2  omit
+
+diffRemoved            red2     omit
+diffAdded              green2   omit
