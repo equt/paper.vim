@@ -13,7 +13,7 @@ License    : MIT
 Include: _help.colortemplate
 
 # Global definitions {{{
-QuickFixLine         ->  Search
+QuickFixLine         -> Search
 StatusLineTerm       -> StatusLine
 StatusLineTermNC     -> StatusLineNC
 Boolean              -> Constant
