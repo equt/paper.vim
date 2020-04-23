@@ -23,7 +23,9 @@ jobs:
           neovim: true
 
       - name: Build
-        run: ./build
+        run: |
+          make build
+          make remove
 
       - name: Commit Changes
         run: |
