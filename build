@@ -1,0 +1,3 @@
+#!/bin/sh
+
+nvim -c 'call colortemplate#make(".", "!", 0) | qall! ' -- templates/suisei.colortemplate
