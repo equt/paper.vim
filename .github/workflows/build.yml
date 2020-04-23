@@ -6,6 +6,7 @@ on:
       - '.github/workflows/**'
       - 'templates/**'
       - 'autoload/**'
+      - 'build'
     branches:
       - master
 
