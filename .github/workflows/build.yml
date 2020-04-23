@@ -2,6 +2,10 @@ name: Suisei CI
 
 on:
   push:
+    paths:
+      - '.github/workflows/**'
+      - 'templates/**'
+      - 'autoload/**'
     branches:
       - master
 
