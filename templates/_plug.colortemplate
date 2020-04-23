@@ -13,5 +13,8 @@ NERDTreeDirSlash       grey2    omit
 
 SignatureMarkText      purple2  omit
 
+EasyMotionTarget       yellow2  omit
+EasyMotionShade        grey2    none
+
 diffRemoved            red2     omit
 diffAdded              green2   omit
