@@ -1,0 +1,34 @@
+name: Suisei CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+
+      - uses: actions/checkout@v2
+
+      - name: Setup NeoVim
+        uses: rhysd/action-setup-vim@v1.2.3
+        with:
+          neovim: true
+
+      - name: Build
+        run: ./build
+
+      - name: Commit Changes
+        run: |
+          git config --local user.email 'bot@47.rs'
+          git config --local user.name 'GitHub Bot'
+          git commit -am 'build: auto generate color and help doc'
+
+      - name: Push to Release Branch
+        uses: ad-m/github-push-action@v0.5.0
+        with:
+          branch: release
+          force: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
