@@ -66,7 +66,11 @@ Color:  red2        #C76D81  ~  LightRed
 
 Include: _term
 Include: _syntax
+
+#if get(g:, '@optionprefix_enable_filetype_specific_highlighting_group', 0)
 Include: _language
+#endif
+
 Include: _plug
 # }}}
 
@@ -94,7 +98,11 @@ Color:  red2        #C47474  ~        LightRed
 
 Include: _term
 Include: _syntax
+
+#if get(g:, '@optionprefix_enable_filetype_specific_highlighting_group', 0)
 Include: _language
+#endif
+
 Include: _plug
 # }}}
 
