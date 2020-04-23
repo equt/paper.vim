@@ -4,4 +4,5 @@ nvim -u NONE -c 'set rtp^=$PWD ignorecase | call colortemplate#make(".", "!", 0)
     -- templates/suisei.colortemplate && \
 
 rm -rf ./artwork && rm -rf ./autoload && rm -rf ./templates && \
-sed -i bak 's/^colors\///g; s/^doc\///g' .gitignore && rm .gitignorebak
+sed 's/^colors\///g; s/^doc\///g' .gitignore > .gitignore_new && \
+mv .gitignore_new .gitignore
