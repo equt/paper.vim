@@ -1,4 +1,4 @@
-name: Suisei CI
+name: Build CI
 
 on:
   push:
