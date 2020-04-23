@@ -1,3 +1,4 @@
 #!/bin/sh
 
-nvim -c 'set rtp^=$PWD | call colortemplate#make(".", "!", 0) | qall! ' -- templates/suisei.colortemplate
+nvim -u NONE -c 'set rtp^=$PWD ignorecase | call colortemplate#make(".", "!", 0) | qall!' \
+    -- templates/suisei.colortemplate
