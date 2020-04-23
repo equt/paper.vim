@@ -24,7 +24,8 @@ jobs:
         run: |
           git config --local user.email 'bot@47.rs'
           git config --local user.name 'GitHub Bot'
-          git commit -am 'build: auto generate color and help doc'
+          git add .
+          git commit -m 'build: auto generate color and help doc'
 
       - name: Push to Release Branch
         uses: ad-m/github-push-action@v0.5.0
