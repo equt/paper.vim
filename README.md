@@ -1,7 +1,12 @@
-![Banner](./artwork/Banner.png)
-![Preview](./artwork/Preview.png)
+![Suisei Banner]
+![Suisei Dark Mode Preview Screenshot]
 
-> LICENSE [MIT](./LICENSE) • Author [@orchx](https://github.com/orchx) • Wiki
-> [Read](https://github.com/theme-suisei/Suisei.vim/wiki) • Issue
-> [New](https://github.com/theme-suisei/Suisei.vim/issues/new/choose)
+[Suisei Banner]: ./artwork/banner.png "「水星」"
+[Suisei Dark Mode Preview Screenshot]: ./artwork/preview/dark.png
 
+> LICENSE [MIT] • Author [@orchx] • Wiki [Read] • Issue [New]
+
+[MIT]: ./LICENSE
+[@orchx]: https://github.com/orchx
+[Read]: https://github.com/theme-suisei/Suisei.vim/wiki
+[New]: https://github.com/theme-suisei/Suisei.vim/issues/new/choose
