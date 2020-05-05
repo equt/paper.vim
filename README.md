@@ -21,9 +21,9 @@ Plug 'theme-suisei/Suisei.vim', { 'branch': 'release' }
 There are also options provided for hacking, see
 [`:h suisei`](https://github.com/theme-suisei/Suisei.vim/blob/release/doc/suisei.txt).
 
-<sub>LICENSE [MIT] • Author [@orchx] • Wiki [Read] • Issue [New]</sub>
+<sub>LICENSE [MIT] • Author [@equt] • Wiki [Read] • Issue [New]</sub>
 
 [mit]: ./LICENSE
-[@orchx]: https://github.com/orchx
+[@equt]: https://github.com/equt
 [read]: https://github.com/theme-suisei/Suisei.vim/wiki
 [new]: https://github.com/theme-suisei/Suisei.vim/issues/new/choose
