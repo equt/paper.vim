@@ -5,8 +5,8 @@
 
 <br/>
 
-This theme is built with [vim-colortemplate]. To try it out, use the code in
-release branch, e.g., for [vim-plug], it would be like
+This theme is built with [vim-colortemplate]. To try it out, use the code in the
+release branch, e.g.,
 
 [vim-colortemplate]: https://github.com/lifepillar/vim-colortemplate
 [vim-plug]: https://github.com/junegunn/vim-plug
