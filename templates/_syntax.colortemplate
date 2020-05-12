@@ -45,7 +45,7 @@ PmenuThumb    omit        grey1
 Question      foreground  omit
 Search        foreground  hint2
 SignColumn    omit        none
-SpecialKey    hint1       background
+SpecialKey    purple1     background
 Whitespace    hint1       background
 SpellBad      red2        omit        underline
 SpellCap      brown2      omit        underline
