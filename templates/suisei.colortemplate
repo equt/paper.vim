@@ -49,8 +49,8 @@ Color:  background  #1D242D  ~  Black
 Color:  foreground  #908F95  ~  LightGrey
 Color:  hint1       #343B44  ~  DarkGrey
 Color:  hint2       #353F4D  ~  Grey
-Color:  grey1       #546478  ~  Grey
-Color:  grey2       #344457  ~  Grey
+Color:  grey1       #949AB3  ~  Grey
+Color:  grey2       #6B6F80 ~  Grey
 Color:  green1      #6AA389  ~  DarkGreen
 Color:  green2      #6CAD89  ~  LightGreen
 Color:  blue1       #435C8A  ~  DarkBlue
