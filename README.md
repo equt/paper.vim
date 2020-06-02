@@ -13,7 +13,7 @@ release branch, e.g.,
 [vim-colortemplate]: https://github.com/lifepillar/vim-colortemplate
 
 ```vim
-Plug 'theme-mercurius/Mercurius.vim', { 'branch': 'release' }
+Plug 'mercurius-scheme/Mercurius.vim', { 'branch': 'release' }
 ```
 
 There are also options provided, see [`:h mercurius`].
