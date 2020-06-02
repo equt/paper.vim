@@ -1,12 +1,10 @@
+EasyMotionMoveHL       omit  omit
+EasyMotionShade        grey2    none
+EasyMotionTarget       yellow2  omit
 GitGutterAdd           green1   omit
 GitGutterChange        yellow1  omit
-GitGutterDelete        red1     omit
 GitGutterChangeDelete  brown1   omit
-
+GitGutterDelete        red1     omit
 SignatureMarkText      purple2  omit
-
-EasyMotionTarget       yellow2  omit
-EasyMotionShade        grey2    none
-
-diffRemoved            red2     omit
 diffAdded              green2   omit
+diffRemoved            red2     omit
