@@ -1,0 +1,45 @@
+*paper.txt*	For Vim version 8.0	Last change: 2020 Sep 23
+
+
+		  Paper color scheme    by equt
+
+Paper, a color scheme with a unique touch.
+
+==============================================================================
+Color scheme options					paper-options*
+
+						*g:paper_transp_bg*
+Set to 1 if you want a transparent background. Takes effect only in the
+terminal.
+>
+	let g:paper_transp_bg = 0
+<
+
+					*g:paper_hide_end_of_buffer*
+Set to 1 if you want to hide the end of buffer.
+>
+	let g:paper_hide_end_of_buffer = 0
+<
+
+						*g:paper_hide_statusline*
+Set to 1 if you want to hide the statusline (e.g., you're using airline)
+>
+	let g:paper_hide_statusline = 0
+<
+
+						*g:paper_hide_end_of_buffer*
+Set to 1 if you want to hide the vertical split bar.
+>
+	let g:paper_hide_vert_split = 0
+<
+
+		    *g:paper_enable_filetype_specific_highlighting_group*
+Set to 1 if you really want to enable filetype specific highlighting. This
+might cause issue in https://github.com/vim/vim/issues/4405, use at your own
+risk.
+>
+	let g:paper_enable_filetype_specific_highlighting_group
+<
+
+ vim:tw=78:ts=8:noet:ft=help:norl:
+

@@ -1,12 +1,11 @@
 # vim: ft=colortemplate fdm=marker et ts=2 sw=2
 
-Full name  : Mercurius
-Short name : mercurius
-Author     : equt <mercurius@47.rs>
-Maintainer : equt <mercurius@47.rs>
-URL        : https://github.com/mercurius-scheme/Mercurius.vim
-Website    : https://mercurius.journal.md
-Version    : 0.2.0
+Full name  : Paper
+Short name : paper
+Author     : equt <vim@47.rs>
+Maintainer : equt <vim@47.rs>
+URL        : https://github.com/equt/paper.vim
+Version    : 1.0.0
 Neovim     : yes
 License    : MIT
 
