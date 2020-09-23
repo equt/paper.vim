@@ -17,12 +17,12 @@ Plug 'equt/paper.vim'
 
 There are also options provided, see [`:h paper`].
 
-This theme is built with [vim-colortemplate], and included in this repository.
+This theme is built with [vim-colortemplate], and it's included in this repository.
 To rebuild the theme from the templates, run `make build`.
 
 <sub>LICENSE [MIT] • Author [@equt] • Issue [New]</sub>
 
-[`:h paper`]: https://github.com/equt/paper.vim/blob/release/doc/paper.txt
+[`:h paper`]: https://github.com/equt/paper.vim/blob/master/doc/paper.txt
 [mit]: ./LICENSE
 [@equt]: https://github.com/equt
 [read]: https://github.com/equt/paper.vim/wiki
