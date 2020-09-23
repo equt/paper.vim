@@ -7,8 +7,7 @@
 
 <br/>
 
-This theme is built with [vim-colortemplate]. To try it out, just add
-it as a normal Vim plug-in, e.g., for `vim-plug` users
+To try it out, just add it as a normal Vim plug-in, e.g., for `vim-plug` users
 
 [vim-colortemplate]: https://github.com/lifepillar/vim-colortemplate
 
@@ -18,10 +17,12 @@ Plug 'equt/paper.vim'
 
 There are also options provided, see [`:h paper`].
 
+This theme is built with [vim-colortemplate], and included in this repository.
+To rebuild the theme from the templates, run `make build`.
+
 <sub>LICENSE [MIT] • Author [@equt] • Issue [New]</sub>
 
-[`:h paper`]:
-  https://github.com/equt/paper.vim/blob/release/doc/paper.txt
+[`:h paper`]: https://github.com/equt/paper.vim/blob/release/doc/paper.txt
 [mit]: ./LICENSE
 [@equt]: https://github.com/equt
 [read]: https://github.com/equt/paper.vim/wiki
