@@ -32,4 +32,4 @@ let s:p.visual.left     = [[s:fg.secondary, s:bg.visual], [s:fg.primary, s:bg.pr
 let s:p.tabline.left    = [[s:fg.primary, s:bg.primary]]
 let s:p.tabline.tabsel  = [[s:fg.secondary, s:bg.contrast]]
 
-let g:lightline#colorscheme#mercurius#palette = lightline#colorscheme#fill(s:p)
+let g:lightline#colorscheme#paper#palette = lightline#colorscheme#fill(s:p)
