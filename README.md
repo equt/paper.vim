@@ -18,11 +18,11 @@ Plug 'equt/paper.vim'
 
 There are also options provided, see [`:h paper`].
 
-<sub>LICENSE [MIT] • Author [@equt] • Wiki [Read] • Issue [New]</sub>
+<sub>LICENSE [MIT] • Author [@equt] • Issue [New]</sub>
 
 [`:h paper`]:
   https://github.com/equt/paper.vim/blob/release/doc/paper.txt
 [mit]: ./LICENSE
 [@equt]: https://github.com/equt
 [read]: https://github.com/equt/paper.vim/wiki
-[new]: https://github.com/equt/paper.vim/issues/new/choose
+[new]: https://github.com/equt/paper.vim/issues/new
