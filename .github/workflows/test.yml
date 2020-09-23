@@ -20,4 +20,3 @@ jobs:
       - name: Build
         run: |
           make build
-          make remove
