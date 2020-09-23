@@ -1,28 +1,28 @@
 <br/>
 <br/>
 
-![Mercurius Preview Screenshot]
+![Paper Preview Screenshot]
 
-[mercurius preview screenshot]: ./artwork/preview/light.png
+[paper preview screenshot]: ./artwork/preview/light.png
 
 <br/>
 
-This theme is built with [vim-colortemplate]. To try it out, use the code in the
-release branch, e.g.,
+This theme is built with [vim-colortemplate]. To try it out, just add
+it as a normal Vim plug-in, e.g., for `vim-plug` users
 
 [vim-colortemplate]: https://github.com/lifepillar/vim-colortemplate
 
 ```vim
-Plug 'mercurius-scheme/Mercurius.vim', { 'branch': 'release' }
+Plug 'equt/paper.vim'
 ```
 
-There are also options provided, see [`:h mercurius`].
+There are also options provided, see [`:h paper`].
 
 <sub>LICENSE [MIT] • Author [@equt] • Wiki [Read] • Issue [New]</sub>
 
-[`:h mercurius`]:
-  https://github.com/theme-mercurius/Mercurius.vim/blob/release/doc/mercurius.txt
+[`:h paper`]:
+  https://github.com/equt/paper.vim/blob/release/doc/paper.txt
 [mit]: ./LICENSE
 [@equt]: https://github.com/equt
-[read]: https://github.com/theme-mercurius/Mercurius.vim/wiki
-[new]: https://github.com/theme-mercurius/Mercurius.vim/issues/new/choose
+[read]: https://github.com/equt/paper.vim/wiki
+[new]: https://github.com/equt/paper.vim/issues/new/choose
