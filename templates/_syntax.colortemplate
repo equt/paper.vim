@@ -69,7 +69,7 @@ Title         foreground  omit
 #if get(g:, '@optionprefix_hide_vert_split', 0)
 VertSplit     background  none
 #else
-VertSplit     hint1        hint1
+VertSplit     hint1       hint1
 #endif
 
 Visual        omit        hint1
