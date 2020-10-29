@@ -70,6 +70,10 @@ Include: _syntax
 Include: _language
 #endif
 
+#if get(g:, '@optionprefix_enhance_spell_check', 0)
+Include: _spell
+#endif
+
 Include: _plug
 # }}}
 
@@ -100,6 +104,10 @@ Include: _syntax
 
 #if get(g:, '@optionprefix_enable_filetype_specific_highlighting_group', 0)
 Include: _language
+#endif
+
+#if get(g:, '@optionprefix_enhance_spell_check', 0)
+Include: _spell
 #endif
 
 Include: _plug
