@@ -12,34 +12,32 @@ documentation
 Color scheme options					@shortname-options*
 
 						*g:@optionprefix_transp_bg*
-Set to 1 if you want a transparent background. Takes effect only in the
-terminal.
+Set to 1 will set the colorscheme background to transparent.
 >
 	let g:@optionprefix_transp_bg = 0
 <
 
 					*g:@optionprefix_hide_end_of_buffer*
-Set to 1 if you want to hide the end of buffer.
+Set to 1 to make the vim's end of buffer character invisible.
 >
 	let g:@optionprefix_hide_end_of_buffer = 0
 <
 
 						*g:@optionprefix_hide_statusline*
-Set to 1 if you want to hide the statusline (e.g., you're using airline)
+Set to 1 if to hide the vim's default statusline (e.g., for airline user).
 >
 	let g:@optionprefix_hide_statusline = 0
 <
 
 						*g:@optionprefix_hide_end_of_buffer*
-Set to 1 if you want to hide the vertical split bar.
+Set to 1 hide the bar between two windows.
 >
 	let g:@optionprefix_hide_vert_split = 0
 <
 
 		    *g:@optionprefix_enable_filetype_specific_highlighting_group*
-Set to 1 if you really want to enable filetype specific highlighting. This
-might cause issue in https://github.com/vim/vim/issues/4405, use at your own
-risk.
+Set to 1 if to enable filetype specific highlighting. This might cause issue in
+https://github.com/vim/vim/issues/4405, so use it at your own risk.
 >
 	let g:@optionprefix_enable_filetype_specific_highlighting_group
 <

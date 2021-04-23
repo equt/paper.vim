@@ -20,6 +20,11 @@ There are also options provided, see [`:h paper`].
 This theme is built with [vim-colortemplate], and it's included in this repository.
 To rebuild the theme from the templates, run `make build`.
 
+This theme is only tested on macOS + iTerm2, the corresponding iTerm2 colorschemes
+could also be found in the [release] page.
+
+[release]: https://github.com/equt/paper.vim/releases
+
 <sub>LICENSE [MIT] • Author [@equt] • Issue [New]</sub>
 
 [`:h paper`]: https://github.com/equt/paper.vim/blob/master/doc/paper.txt
